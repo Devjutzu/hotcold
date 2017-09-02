@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Pacifico');
+
+input{
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Gloria Hallelujah',cursive;
+    color: white;
+    font-size:140px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border:5px solid rgba(255, 255, 255, 0.4);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -215px 0 0 -215px;
+      text-align: center
+}
+.formy{
+    
+position: relative;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
